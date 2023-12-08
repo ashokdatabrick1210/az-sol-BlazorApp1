@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "az-sol-BlazorApp1\\bin\\Release\\net8.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/c24c631d-5e4e-4856-81bf-1b542c009c76/resourceGroups/rg-sol-dev/providers/Microsoft.Web/sites/az-webapp-ashok-vscode-tools"
+}
