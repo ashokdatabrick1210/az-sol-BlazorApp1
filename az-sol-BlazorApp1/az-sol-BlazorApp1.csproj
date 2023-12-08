@@ -6,6 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>az-sol-BlazorApp1</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
+    <ApplicationInsightsResourceId>/subscriptions/c24c631d-5e4e-4856-81bf-1b542c009c76/resourceGroups/rg-sol-dev/providers/microsoft.insights/components/az-app-continuous-deploy</ApplicationInsightsResourceId>
+    <UserSecretsId>63277f02-e353-402d-84bf-5921dca5febb</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
